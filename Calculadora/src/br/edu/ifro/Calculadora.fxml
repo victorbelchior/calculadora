@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="299.0" prefWidth="312.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.CalculadoraController">
+   <children>
+      <JFXTextField fx:id="txt1" labelFloat="true" layoutX="30.0" layoutY="44.0" promptText="Primerio Valor" />
+      <JFXTextField fx:id="txt2" labelFloat="true" layoutX="30.0" layoutY="143.0" promptText="Segundo Valor" />
+      <JFXTextField fx:id="txt3" layoutX="30.0" layoutY="240.0" promptText="Resultado" />
+      <JFXButton fx:id="btnsoma" layoutX="248.0" layoutY="44.0" text="Somar" />
+      <JFXButton fx:id="btnsubtrair" layoutX="248.0" layoutY="118.0" text="Subtrair" />
+      <JFXButton fx:id="btnmultiplicar" layoutX="248.0" layoutY="185.0" text="Multiplicar" />
+      <JFXButton fx:id="btndividir" layoutX="248.0" layoutY="253.0" text="Dividir" />
+   </children>
+</AnchorPane>
